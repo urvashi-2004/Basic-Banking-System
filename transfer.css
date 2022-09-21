@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+      padding: 10px 50px 0px 50px;
+      font-family: sans-serif;
+  }
+  .navbar{overflow: auto;
+      background-color: blue;
+  }
+  .navbar ul{
+      list-style: none;
+      margin: 0px 0px 0px 200px;
+
+  }
+  .navbar li{
+      float: left;
+  }
+  .navbar li a{
+      font-weight: bold;
+      display: block;
+      padding: 20px 50px;
+      color:white;
+      text-align: center;
+  }
+  .navbar li a:hover{
+      color: blue;
+      background-color:white;
+      cursor: pointer;
+  }
+  .logo{
+      position: absolute;
+      background-color: blue;
+      margin-left: 90px;
+  }
+  .logo p{
+      margin: 0px 0px 0px -13px;
+      font-size: 12.5px;
+      font-weight: bold;
+      color: white;
+  }
+  .container{
+    padding: 50px;
+      background-color:whitesmoke;
+      display: grid;
+      grid-template-columns:  1fr;
+
+}
+.item{  border-radius: 50px;
+      background-color:lavender;
+      height: 27em;
+      width: 30em;
+      justify-self: center;
+      color:blue;
+      text-align: center;
+      padding: 30px 70px 70px 70px;
+      font-size: 20px;      
+}
+.receiver{margin: 35px;
+    background-color:lavender;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    border-color: blue;
+
+}
+.account{margin: 5px;
+    background-color:lavender;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    border-color: blue;
+}
+.amount{margin: 35px;
+    background-color:lavender;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    border-color:blue;
+}
+
+.transfer{margin: 10px;
+    color: blue;
+    font-weight: bold;
+    background-color:lavender;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: blue;
+}
+.transfer:hover{
+    cursor: pointer;
+    background-color: rgb(0, 68, 255);
+    color: whitesmoke;
+}
+.thanks{padding: 2em;
+    color: black;
+}

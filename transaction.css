@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+      padding: 10px 50px 0px 50px;
+      font-family: sans-serif;
+  }
+  .navbar{overflow: auto;
+      background-color: blue;
+  }
+  .navbar ul{
+      list-style: none;
+      margin: 0px 0px 0px 200px;
+
+  }
+  .navbar li{
+      float: left;
+  }
+  .navbar li a{
+      font-weight: bold;
+      display: block;
+      padding: 20px 50px;
+      color:white;
+      text-align: center;
+  }
+  .navbar li a:hover{
+      color: blue;
+      background-color:white;
+      cursor: pointer;
+  }
+  .logo{
+      position: absolute;
+      background-color: blue;
+      margin-left: 90px;
+  }
+  .logo p{
+      margin: 0px 0px 0px -13px;
+      font-size: 12.5px;
+      font-weight: bold;
+      color: white;
+  }
+  .view{padding: 25px;
+    background-color:whitesmoke;
+    text-align: center;
+    justify-self: center;
+    color: blue;
+    font-weight: bold;
+}
+.contain{
+    padding-top: 1em;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0em;  
+}
+.boxes{ 
+    background-color:lavender;
+    height: 3em;
+    width: 13em;
+    justify-self: center;
+    border-radius: 20px;
+    color: blue;
+}
+.boxes{
+    cursor: pointer;
+} 
+.box1{
+    padding: 10px;
+    text-align: center;
+}
+.box2{
+    padding: 10px;
+    text-align: center;
+}
+.box3{
+    padding: 10px;
+    text-align: center;
+}
+.box4{
+    padding: 10px;
+    text-align: center;
+}
+.box5{
+    padding: 10px;
+    text-align: center;
+}
+.template{ 
+    margin: 2em;
+    background-color:lavender;
+    height: 26.5em;
+    width: 13em;
+    justify-self: center;
+    border-radius: 20px;
+    color: blue;
+} 
+.temp1{
+    padding: 30px 0px;
+    text-align: center;
+}
+.temp2{
+    padding: 30px;
+    text-align: center;
+}
+.temp3{
+    padding: 30px;
+    text-align: center;
+}
+.temp4{
+    padding: 25px;
+    text-align: center;
+}
+.temp5{
+    padding: 25px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    right: 10em;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+
+    text-align: center;
+    color:white;
+    background-color:rgb(0, 70, 255);
+   
+}
+.button:hover{
+    cursor: pointer;
+    color:blue;
+    background-color:white;
+}

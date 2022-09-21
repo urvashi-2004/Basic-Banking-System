@@ -1,0 +1,155 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    padding: 10px 50px 0px 50px;
+    font-family: sans-serif;
+}
+.navbar{overflow: auto;
+    background-color: blue;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0px 0px 0px 200px;
+
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    font-weight: bold;
+    display: block;
+    padding: 20px 50px;
+    color:white;
+    text-align: center;
+}
+.navbar li a:hover{
+    color: blue;
+    background-color:white;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    background-color: blue;
+    margin-left: 90px;
+}
+.logo p{
+    margin: 0px 0px 0px -13px;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: white;
+}
+.container{
+    background-color:white;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    row-gap: 10em;  
+}
+.item{
+    background-color:whitesmoke;
+    height: 38em;
+    width: 44.3em;
+    justify-self: center;
+    color:slateblue;
+} 
+.item1{
+    padding: 70px 70px 70px 70px;
+    font-size: 20px;
+}
+.item2{
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+}
+.btn{  
+    color: crimson;
+    padding: 10px 10px;
+    border-color:slateblue;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:lavender;
+}
+.line{
+    padding: 50px 0px;
+}
+.service{
+    color:blue;
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.contain{padding: 100px 50px;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 5em;  
+}
+.boxes{
+    background-color:blanchedalmond;
+    height: 15em;
+    width: 15em;
+    justify-self: center;
+    border-radius: 20px;
+} 
+.box1{cursor: pointer;
+    padding: 38px 20px;
+}
+.box2{cursor: pointer;
+    padding: 38px 15px;
+}
+.box3{cursor: pointer;
+    padding: 30px 30px;    
+}
+.box4{cursor: pointer;
+    padding: 30px 45px;
+}
+.template{
+    background-color:lightgrey;
+    height: 5em;
+    width: 15em;
+    justify-self: center;
+    color:crimson;
+    border-color:aqua;
+    border-radius: 40px;
+    
+}
+.temp1{   
+    padding: 25px 25px 25px 25px;
+}
+.temp1:hover{
+    border-radius: 40px;
+    background-color:silver;
+    cursor: pointer;
+}
+.temp2{
+    padding: 25px 25px 25px 25px;
+}
+.temp2:hover{
+    border-radius: 40px;
+    background-color:silver;
+    cursor: pointer;
+}
+.temp3{
+    padding: 25px 25px 25px 50px;
+}
+.temp3:hover{
+    border-radius: 40px;
+    background-color:silver;
+    cursor: pointer;
+}
+.temp4{
+    padding: 25px 25px 25px 30px;
+}
+.temp4:hover{
+    border-radius: 40px;
+    background-color:silver;
+    cursor: pointer;
+}
